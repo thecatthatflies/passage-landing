@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description: "Get help with Passage, the iOS reading companion.",
 };
 
-const CONTACT_EMAIL = "support@passage.app";
+const CONTACT_EMAIL = "support@aiyan.tech";
 
 const faqs = [
   {

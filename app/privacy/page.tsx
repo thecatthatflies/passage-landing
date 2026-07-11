@@ -7,7 +7,7 @@ export const metadata: Metadata = {
 };
 
 const EFFECTIVE_DATE = "July 11, 2026";
-const CONTACT_EMAIL = "support@passage.app";
+const CONTACT_EMAIL = "support@aiyan.tech";
 
 export default function PrivacyPage() {
   return (
