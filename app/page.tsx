@@ -493,8 +493,11 @@ export default function Home() {
         <span style={{ fontFamily: "'Cormorant Garamond', Georgia, serif", fontSize: "18px", fontWeight: 600, color: "var(--ink)", letterSpacing: "-0.02em" }}>
           Passage
         </span>
-        <div style={{ display: "flex", gap: "24px", alignItems: "center", flexWrap: "wrap" }}>
-          <Link href="/privacy" style={{ fontFamily: "system-ui", fontSize: "13px", color: "var(--stone)", textDecoration: "none" }}>Privacy Policy</Link>
+        <div style={{ display: "flex", gap: "20px", alignItems: "center", flexWrap: "wrap" }}>
+          <Link href="/privacy" style={{ fontFamily: "system-ui", fontSize: "13px", color: "var(--stone)", textDecoration: "none" }}>Privacy</Link>
+          <Link href="/terms" style={{ fontFamily: "system-ui", fontSize: "13px", color: "var(--stone)", textDecoration: "none" }}>Terms</Link>
+          <Link href="/eula" style={{ fontFamily: "system-ui", fontSize: "13px", color: "var(--stone)", textDecoration: "none" }}>EULA</Link>
+          <Link href="/support" style={{ fontFamily: "system-ui", fontSize: "13px", color: "var(--stone)", textDecoration: "none" }}>Support</Link>
           <a href={APP_STORE_URL} style={{ fontFamily: "system-ui", fontSize: "13px", color: "var(--stone)", textDecoration: "none" }}>App Store</a>
           <span style={{ fontFamily: "system-ui", fontSize: "13px", color: "var(--stone)" }}>© {new Date().getFullYear()} Passage</span>
         </div>
